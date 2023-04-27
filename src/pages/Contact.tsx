@@ -1,12 +1,12 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Aboutcontents from "../components/aboutcontents";
+import Contact_form from "src/components/contact_form";
 
-export default function About() {
+export default function Contact() {
     return (
         <div>
             <Header />
-                <Aboutcontents />
+                <Contact_form/>
             <Footer />
         </div>
     )

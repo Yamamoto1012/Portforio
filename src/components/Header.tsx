@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function App() {
+export default function Header() {
     const [openMenu, setOpenMenu] = useState(false);
 
     const handleMenuOpen = () => {
@@ -25,9 +25,9 @@ export default function App() {
                         </button>
                     </div>
                     <div className={`lg:flex lg:items-center ${openMenu ? "block" : "hidden"}`}>
-                        <ul className="mx-4 mt-2 block text-xl">home</ul>
-                        <ul className="mx-4 mt-2 block text-xl">about</ul>
-                        <ul className="mx-4 mt-2 block text-xl">contact</ul>
+                        <a href="/" className="mx-4 mt-2 block text-xl">home</a>
+                        <a href="/about" className="mx-4 mt-2 block text-xl">about</a>
+                        <a href="/contact" className="mx-4 mt-2 block text-xl">contact</a>
                     </div>
                 </div>
             </div>
