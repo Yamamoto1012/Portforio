@@ -1,11 +1,12 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 
 export default function Home() {
     return (
         <div>
             <Header />
-            <h1 className="font-kaisei text-3xl font-bold underline">Home</h1>
+                <Hero />
             <Footer />
         </div>
     )
